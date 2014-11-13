@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		750CAA821A0E638A0018CD05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 750CAA811A0E638A0018CD05 /* Images.xcassets */; };
+		750CAA901A0E643B0018CD05 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 750CAA8C1A0E643B0018CD05 /* Credits.rtf */; };
+		750CAA911A0E643B0018CD05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 750CAA8E1A0E643B0018CD05 /* InfoPlist.strings */; };
+		751240FB1A0F206600353048 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 751240F91A0F206600353048 /* MainMenu.xib */; };
+		7550A89D1A0EAB91000FCB8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 750CAA7F1A0E63730018CD05 /* AppDelegate.m */; };
+		7550A89E1A0EAB95000FCB8D /* SSAudioSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 750CAA841A0E63B10018CD05 /* SSAudioSource.m */; };
+		7550A89F1A0EAB98000FCB8D /* AppDelegate+AirPlayUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 750CAA871A0E63C30018CD05 /* AppDelegate+AirPlayUtilities.m */; };
+		7550A8A61A0EAE57000FCB8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7550A8A51A0EAE57000FCB8D /* main.m */; };
+		7550A8A71A0EAE57000FCB8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7550A8A51A0EAE57000FCB8D /* main.m */; };
+		75CFDB5219C4114200A652F2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CFDB5119C4114200A652F2 /* Cocoa.framework */; };
+		75CFDB7119C4114300A652F2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CFDB7019C4114300A652F2 /* XCTest.framework */; };
+		75CFDB7219C4114300A652F2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CFDB5119C4114200A652F2 /* Cocoa.framework */; };
+		75CFDB7A19C4114300A652F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75CFDB7819C4114300A652F2 /* InfoPlist.strings */; };
+		75CFDB7C19C4114300A652F2 /* AirPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CFDB7B19C4114300A652F2 /* AirPlayTests.m */; };
+		75CFDB8619C4116300A652F2 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CFDB8519C4116300A652F2 /* CoreAudio.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75CFDB7319C4114300A652F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75CFDB4619C4114200A652F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75CFDB4D19C4114200A652F2;
+			remoteInfo = AirPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		750CAA7E1A0E63730018CD05 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AirPlayStreaming/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		750CAA7F1A0E63730018CD05 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AirPlayStreaming/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		750CAA811A0E638A0018CD05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AirPlayStreaming/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		750CAA831A0E63B10018CD05 /* SSAudioSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSAudioSource.h; path = AirPlayStreaming/SSAudioSource.h; sourceTree = SOURCE_ROOT; };
+		750CAA841A0E63B10018CD05 /* SSAudioSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSAudioSource.m; path = AirPlayStreaming/SSAudioSource.m; sourceTree = SOURCE_ROOT; };
+		750CAA861A0E63C30018CD05 /* AppDelegate+AirPlayUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+AirPlayUtilities.h"; path = "AirPlayStreaming/AppDelegate+AirPlayUtilities.h"; sourceTree = SOURCE_ROOT; };
+		750CAA871A0E63C30018CD05 /* AppDelegate+AirPlayUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+AirPlayUtilities.m"; path = "AirPlayStreaming/AppDelegate+AirPlayUtilities.m"; sourceTree = SOURCE_ROOT; };
+		750CAA891A0E63E20018CD05 /* AirPlayStreaming-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "AirPlayStreaming-Info.plist"; path = "AirPlayStreaming/AirPlayStreaming-Info.plist"; sourceTree = SOURCE_ROOT; };
+		750CAA8D1A0E643B0018CD05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = AirPlayStreaming/en.lproj/Credits.rtf; sourceTree = SOURCE_ROOT; };
+		750CAA8F1A0E643B0018CD05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = AirPlayStreaming/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		751240FC1A0F209800353048 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7550A8A11A0EAC86000FCB8D /* AirPlayStreaming-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AirPlayStreaming-Prefix.pch"; path = "AirPlayStreaming/AirPlayStreaming-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		7550A8A51A0EAE57000FCB8D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AirPlayStreaming/main.m; sourceTree = SOURCE_ROOT; };
+		75CFDB4E19C4114200A652F2 /* AirPlayStreaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPlayStreaming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75CFDB5119C4114200A652F2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		75CFDB5419C4114200A652F2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		75CFDB5519C4114200A652F2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		75CFDB5619C4114200A652F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75CFDB6F19C4114300A652F2 /* AirPlayStreamingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirPlayStreamingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75CFDB7019C4114300A652F2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		75CFDB7719C4114300A652F2 /* AirPlayStreamingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirPlayStreamingTests-Info.plist"; sourceTree = "<group>"; };
+		75CFDB7919C4114300A652F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75CFDB7B19C4114300A652F2 /* AirPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirPlayTests.m; sourceTree = "<group>"; };
+		75CFDB8519C4116300A652F2 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75CFDB4B19C4114200A652F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CFDB8619C4116300A652F2 /* CoreAudio.framework in Frameworks */,
+				75CFDB5219C4114200A652F2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75CFDB6C19C4114300A652F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CFDB7219C4114300A652F2 /* Cocoa.framework in Frameworks */,
+				75CFDB7119C4114300A652F2 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75CFDB4519C4114200A652F2 = {
+			isa = PBXGroup;
+			children = (
+				751240F91A0F206600353048 /* MainMenu.xib */,
+				75CFDB5719C4114200A652F2 /* AirPlay */,
+				75CFDB7519C4114300A652F2 /* AirPlayTests */,
+				75CFDB5019C4114200A652F2 /* Frameworks */,
+				75CFDB4F19C4114200A652F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75CFDB4F19C4114200A652F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75CFDB4E19C4114200A652F2 /* AirPlayStreaming.app */,
+				75CFDB6F19C4114300A652F2 /* AirPlayStreamingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75CFDB5019C4114200A652F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75CFDB8519C4116300A652F2 /* CoreAudio.framework */,
+				75CFDB5119C4114200A652F2 /* Cocoa.framework */,
+				75CFDB7019C4114300A652F2 /* XCTest.framework */,
+				75CFDB5319C4114200A652F2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75CFDB5319C4114200A652F2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75CFDB5419C4114200A652F2 /* AppKit.framework */,
+				75CFDB5519C4114200A652F2 /* CoreData.framework */,
+				75CFDB5619C4114200A652F2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		75CFDB5719C4114200A652F2 /* AirPlay */ = {
+			isa = PBXGroup;
+			children = (
+				750CAA7E1A0E63730018CD05 /* AppDelegate.h */,
+				750CAA7F1A0E63730018CD05 /* AppDelegate.m */,
+				750CAA811A0E638A0018CD05 /* Images.xcassets */,
+				75CFDB5819C4114200A652F2 /* Supporting Files */,
+				750CAA831A0E63B10018CD05 /* SSAudioSource.h */,
+				750CAA841A0E63B10018CD05 /* SSAudioSource.m */,
+				750CAA861A0E63C30018CD05 /* AppDelegate+AirPlayUtilities.h */,
+				750CAA871A0E63C30018CD05 /* AppDelegate+AirPlayUtilities.m */,
+			);
+			path = AirPlay;
+			sourceTree = "<group>";
+		};
+		75CFDB5819C4114200A652F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7550A8A51A0EAE57000FCB8D /* main.m */,
+				750CAA8C1A0E643B0018CD05 /* Credits.rtf */,
+				7550A8A11A0EAC86000FCB8D /* AirPlayStreaming-Prefix.pch */,
+				750CAA8E1A0E643B0018CD05 /* InfoPlist.strings */,
+				750CAA891A0E63E20018CD05 /* AirPlayStreaming-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75CFDB7519C4114300A652F2 /* AirPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				75CFDB7B19C4114300A652F2 /* AirPlayTests.m */,
+				75CFDB7619C4114300A652F2 /* Supporting Files */,
+			);
+			path = AirPlayTests;
+			sourceTree = "<group>";
+		};
+		75CFDB7619C4114300A652F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75CFDB7719C4114300A652F2 /* AirPlayStreamingTests-Info.plist */,
+				75CFDB7819C4114300A652F2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75CFDB4D19C4114200A652F2 /* AirPlayStreaming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75CFDB7F19C4114300A652F2 /* Build configuration list for PBXNativeTarget "AirPlayStreaming" */;
+			buildPhases = (
+				75CFDB4A19C4114200A652F2 /* Sources */,
+				75CFDB4B19C4114200A652F2 /* Frameworks */,
+				75CFDB4C19C4114200A652F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirPlayStreaming;
+			productName = AirPlay;
+			productReference = 75CFDB4E19C4114200A652F2 /* AirPlayStreaming.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75CFDB6E19C4114300A652F2 /* AirPlayStreamingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75CFDB8219C4114300A652F2 /* Build configuration list for PBXNativeTarget "AirPlayStreamingTests" */;
+			buildPhases = (
+				75CFDB6B19C4114300A652F2 /* Sources */,
+				75CFDB6C19C4114300A652F2 /* Frameworks */,
+				75CFDB6D19C4114300A652F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75CFDB7419C4114300A652F2 /* PBXTargetDependency */,
+			);
+			name = AirPlayStreamingTests;
+			productName = AirPlayTests;
+			productReference = 75CFDB6F19C4114300A652F2 /* AirPlayStreamingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75CFDB4619C4114200A652F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Lorenzo P. Thurman";
+				TargetAttributes = {
+					75CFDB6E19C4114300A652F2 = {
+						TestTargetID = 75CFDB4D19C4114200A652F2;
+					};
+				};
+			};
+			buildConfigurationList = 75CFDB4919C4114200A652F2 /* Build configuration list for PBXProject "AirPlayStreaming" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75CFDB4519C4114200A652F2;
+			productRefGroup = 75CFDB4F19C4114200A652F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75CFDB4D19C4114200A652F2 /* AirPlayStreaming */,
+				75CFDB6E19C4114300A652F2 /* AirPlayStreamingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75CFDB4C19C4114200A652F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750CAA821A0E638A0018CD05 /* Images.xcassets in Resources */,
+				750CAA911A0E643B0018CD05 /* InfoPlist.strings in Resources */,
+				750CAA901A0E643B0018CD05 /* Credits.rtf in Resources */,
+				751240FB1A0F206600353048 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75CFDB6D19C4114300A652F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CFDB7A19C4114300A652F2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75CFDB4A19C4114200A652F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7550A89D1A0EAB91000FCB8D /* AppDelegate.m in Sources */,
+				7550A89E1A0EAB95000FCB8D /* SSAudioSource.m in Sources */,
+				7550A8A61A0EAE57000FCB8D /* main.m in Sources */,
+				7550A89F1A0EAB98000FCB8D /* AppDelegate+AirPlayUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75CFDB6B19C4114300A652F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7550A8A71A0EAE57000FCB8D /* main.m in Sources */,
+				75CFDB7C19C4114300A652F2 /* AirPlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75CFDB7419C4114300A652F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75CFDB4D19C4114200A652F2 /* AirPlayStreaming */;
+			targetProxy = 75CFDB7319C4114300A652F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		750CAA8C1A0E643B0018CD05 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				750CAA8D1A0E643B0018CD05 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		750CAA8E1A0E643B0018CD05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				750CAA8F1A0E643B0018CD05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		751240F91A0F206600353048 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				751240FC1A0F209800353048 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		75CFDB7819C4114300A652F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75CFDB7919C4114300A652F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75CFDB7D19C4114300A652F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		75CFDB7E19C4114300A652F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		75CFDB8019C4114300A652F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirPlayStreaming/AirPlayStreaming-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/AirPlayStreaming/AirPlayStreaming-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = AirPlayStreaming;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75CFDB8119C4114300A652F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirPlayStreaming/AirPlayStreaming-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/AirPlayStreaming/AirPlayStreaming-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = AirPlayStreaming;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		75CFDB8319C4114300A652F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirPlayStreaming.app/Contents/MacOS/AirPlayStreaming";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirPlayStreaming/AirPlayStreaming-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AirPlayTests/AirPlayStreamingTests-Info.plist";
+				PRODUCT_NAME = AirPlayStreamingTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		75CFDB8419C4114300A652F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirPlayStreaming.app/Contents/MacOS/AirPlayStreaming";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirPlayStreaming/AirPlayStreaming-Prefix.pch";
+				INFOPLIST_FILE = "AirPlayTests/AirPlayStreamingTests-Info.plist";
+				PRODUCT_NAME = AirPlayStreamingTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75CFDB4919C4114200A652F2 /* Build configuration list for PBXProject "AirPlayStreaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75CFDB7D19C4114300A652F2 /* Debug */,
+				75CFDB7E19C4114300A652F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75CFDB7F19C4114300A652F2 /* Build configuration list for PBXNativeTarget "AirPlayStreaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75CFDB8019C4114300A652F2 /* Debug */,
+				75CFDB8119C4114300A652F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75CFDB8219C4114300A652F2 /* Build configuration list for PBXNativeTarget "AirPlayStreamingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75CFDB8319C4114300A652F2 /* Debug */,
+				75CFDB8419C4114300A652F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75CFDB4619C4114200A652F2 /* Project object */;
+}
